@@ -1,0 +1,23 @@
+
+
+You can run the project directly using an embedded server via Maven.
+For Tomcat: mvn tomcat:run
+For Jetty: mvn jetty:run
+
+
+Our application is now finished. We've managed to setup a simple Spring 3 MVC application with reporting capabilities. Thanks to Jasper. We've managed to add a master report and a sub-report successfully. We've also leveraged Spring's MVC programming model via annotation.
+
+To access the download page, enter the following URL:
+http://localhost:8080/spring-jasper-subreport-single/krams/main/download
+
+If you want to download the report directly, enter the following URL for XLS format:
+http://localhost:8080/spring-jasper-subreport-single/krams/main/download/xls
+
+For PDF format, enter the following URL:
+http://localhost:8080/spring-jasper-subreport-single/krams/main/download/pdf
+
+For HTML and CSV, I left this exercise for my readers.
+
+The best way to learn further is to try the actual application.
+
+
